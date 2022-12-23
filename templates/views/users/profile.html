@@ -1,0 +1,9 @@
+{% extends 'app.html' %}
+
+{% block content %}
+    <h1>User Info</h1>
+    <p>ID: {{ user[0] }}</p>
+    <p>Name: {{ user[1] }}</p>
+    <p>Email: {{ user[2] }}</p>
+    <a class="btn btn-primary" href="/login">Выйти</a>
+{% endblock %}
